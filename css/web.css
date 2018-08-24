@@ -28,17 +28,17 @@ img{width: 100%}
 
 nav{border-top: 20px solid #efefef; line-height: 84px;background: url(../img/logo.png) 50px 14px no-repeat;}
 nav ul{height: 84px;}
-nav ul li{float: left; margin-left: 45px;/*font: Franklin Gothic Book;*/ font-size: 14px;}
+nav ul li{float: left; margin-left: 45px;/*font: Franklin Gothic Book;*/ font-size: 14px; font-weight: bold;}
 h1{font: Helvetica Neue;font-size: 40px;color: #fff100;font-weight:bold;text-align: center;line-height: 1.5;}
 .banner-text{position: relative; height: 410px;}
 .competition-name{position: absolute;left: 25%;bottom:45px;}
-.banner-info{background-color: #514f4e;line-height: 1.5; color: #fff100;font-weight: bold;} 
+.banner-info{background-color: #514f4e;line-height: 1.5; color: #fff100;font-weight: bold;margin-top: -4px;} 
 .banner-info .w{height: 135px;width: 1000px; }
 .banner-info p{font-size: 14px;}
 .banner-info p.dollar,p.dollar-text{font-size: 30px;line-height: 1;}
 .banner-info p.dollar-text{font-size: 14px;line-height: 1.5;}
 .banner-info .info-1,.info-2{margin: 45px 45px 45px 0;}
-.banner-info .info-3{margin: 45px 0;}
+.banner-info .info-3{margin: 30px 0;}
 .banner-info .info-2 p{padding-left: 15px; background: url(../img/o.png) 0px 7px no-repeat;}
 .banner-info .info-1{padding-left: 45px; background: url(../img/dollar.png)  no-repeat;}
 .banner-info .info-3{width: 177px;height: 74px; text-align: center; line-height: 74px; color:#000; border:1px solid 
@@ -49,8 +49,8 @@ h1{font: Helvetica Neue;font-size: 40px;color: #fff100;font-weight:bold;text-ali
 	margin-top: 70px; margin-bottom: 15px; font-weight: bold;border:1px solid 
 	#ff261c;border-radius:6px; -moz-border-radius:6px;background-color: #ff261c;}
 .red-btn img{width: 16px;height: 8px;margin-left: 8px;}
-.details p,em{margin-top: 30px; font: Euphemia; font-size: 14px;line-height: 1.5;}
-.details em{margin-top: 50px; color:#ff261c;}
-
+.details p,em,i{margin-top: 30px; font: Euphemia; font-size: 14px;line-height: 1.5;}
+p.red,em,i{margin-top: 50px; color:#ff261c;}
+p.red{font-weight: bold;}
 footer{height: 105px;background-color: #514f4e; margin-top: 70px;}
 footer img{height: 35px;width: 35px;margin:35px 0 35px 10px;}
