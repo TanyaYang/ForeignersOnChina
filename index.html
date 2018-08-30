@@ -5,22 +5,31 @@
 	<title>Document</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" /> 
 	<link rel="stylesheet" href="css/web.css">
 </head>
 
 <body>
-	<header>
-		<nav>
-			<ul class="w">
-				<li> INTRODUCTION</li>
-				<li> CATEGORIESS</li>
-				<li> COMPETITION RULES</li>
-				<li> AWARDS</li>
-				<li> ORGANIZER</li>
-				<li> PROJECT SPECIFIC</li>
+
+	<a href="#gotop"><img src="img/top.png" alt="" class="top"></a>
+	<header >
+		<nav class="clearnfix" id="gotop">
+			<img class="fl logo" src="img/logo.png" alt="">
+			<ul class="fl pc-menu" id="menuList">
+				<li> <a href="#INTRODUCTION" > INTRODUCTION </a></li>
+				<li> <a href="#CATEGORIES" > CATEGORIES </a></li>
+				<li> <a href="#Competition-Rules" > COMPETITION RULES </a></li>
+				<li> <a href="#Awards" > AWARDS </a></li>
+				<li> <a href="#Organizer" > ORGANIZER </a></li>
+				<!-- <li > <a href="#PROJECT-SPECIFIC" > PROJECT SPECIFIC </a></li> -->
 			</ul>
+			<img id="menuBtn" class="fr menu-hide" src="img/menu.png" onclick="displayOrHide();" alt="">
+			<div class="ch_en fr"><a href="index_ch.html">中文 </a>  | <a href="index.html"> English</a></div>
+			
+
+
 		</nav>
-		<img src="img/banner1.png" alt="">
+		<img class="bannerimg" src="img/banner1.png" alt="">
 		<!-- <div class="banner-text">
 			<img src="img/banner.jpg" alt="">
 			<div class="competition-name">
@@ -28,22 +37,23 @@
 				<h1>INTERNATIONAL MICRO-VIDEO COMPETITION</h1>
 			</div>
 		</div> -->
-		<div class="banner-info clearnfix ">
-			<div class="w">
-			<div class="info-1 fl">
-				<p class="dollar">5000.00</p>
-				<p class="dollar-text">PROJECT PRIZING</p>
+		<div class="banner-info  ">
+			<div class="w clearnfix">
+			<div class="info-1 ">
+				<!-- <p class="dollar">5000.00</p>
+				<p class="dollar-text">PROJECT PRIZING</p> -->
+				<img src="img/dollar1.png" alt="">
 			</div>
-			<div class="info-2 fl">
+			<div class="info-2 ">
 				<p>5-day China trip</p>
 				<p>Possible future collabs</p>
 			</div>
-			<div class="info-2 fl">
+			<div class="info-2 ">
 				<p>Access to Chinese video-making partners</p>
 				<p>Access to the Chinese market</p>
 			</div>
-			<div class="info-3 fr">
-				<a href="#"><p>SUBMIT PITCH</p></a>
+			<div class="info-3 ">
+				<a href="<!-- /user/test/xxxx.txt -->" download="文件名.txt"><p>SUBMIT PITCH</p></a>
 			</div>
 			</div>
 		</div>
@@ -51,7 +61,7 @@
 
 	<content>
 		<div class="w">
-			<div class="INTRODUCTION">
+			<div id="INTRODUCTION">
 				<div class="red-btn">INTRODUCTION<img src="img/arrow.png" alt=""></div>
 				<hr>
 				<div class="details">
@@ -60,7 +70,7 @@
 					<p>Outstanding videos will be widely spread by seven international communication medias covering 10 languages, including China.org.cn, CIPG Digital Media Center, Beijing Review, China Pictorial, China Today, People’s China, China Report under the China International Publishing Group to mobile internet users around the world through platforms such as social medias and portal websites.</p>
 				</div>
 			</div>
-			<div class="CATEGORIES">
+			<div id="CATEGORIES">
 				<div class="red-btn">CATEGORIES<img src="img/arrow.png" alt=""></div>
 				<hr>
 				<div class="details">
@@ -93,7 +103,7 @@
 					<p>This unit is for all Chinese and foreigners, but the key roles  should be non-Chinses citizens.</p>
 				</div>
 			</div>
-			<div class="Competition Rules">
+			<div id="Competition-Rules">
 				<div class="red-btn">Competition Rules<img src="img/arrow.png" alt=""></div>
 				<hr>
 				<div class="details">			
@@ -113,7 +123,7 @@
 					<p>The deadline of submitting your work is Feb. 11th, 2019, Beijing time. (based on email or express sending date)</p>
 
 					<p class="red">Submission channels</p>
-					<p>Please send the following files in the form of large attachments to the email <i>foreignersonchina@chinamatters.com</i> (Please enter the email subject as “<i>producer-video name</i>- for competition”.)</p>
+					<p>Please send the following files in the form of large attachments to the email <a href="mailto:foreignersonchina@chinamatters.com"><i>foreignersonchina@chinamatters.com</i></a> (Please enter the email subject as “<i>producer-video name</i>- for competition”.)</p>
 					<p>(1) Video Name-<em>Entry form</em> (The form should be filled out accordingly)</p>
 					<p>(2) Video Name- photo of the director or the team (The photo should be a full face life or identification photo and of the format JPG, for the use of publicity in the final.)</p>
 					<p>(3) Your video (If you cannot send the video through email, please send the link and password of the net disk by email. Baidu's net disk is recommended for creators in China and googledriver net disk for creators from other countries.)</p>
@@ -122,7 +132,7 @@
 					<p>Addressee: Zhang Qian &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tel: 86-10-68996370</p>
 				</div>
 			</div>
-			<div class="Awards">
+			<div id="Awards">
 				<div class="red-btn">Awards<img src="img/arrow.png" alt=""></div>
 				<hr>
 				<div class="details">			
@@ -133,7 +143,7 @@
 					<p>The winner group or individual will also have the chance of being recruited by more than 20 companies under the China International Publishing Group, specializing in new media.</p>
 				</div>
 			</div>
-			<div class="Organizer">
+			<div id="Organizer">
 				<div class="red-btn">Organizer<img src="img/arrow.png" alt=""></div>
 				<hr>
 				<div class="details">				
@@ -147,21 +157,27 @@
 	</content>
 	<footer>
 		<div class="w">
-			<img src="img/yt.png" class="fr" alt="">
-			<img src="img/fb.png" class="fr" alt="">
+			<a href="https://www.youtube.com/channel/UCFjgwGAVYtThJdn2i8F8AWw"><img src="img/yt.png" class="fl" alt=""></a>
+			<a href="https://www.facebook.com/chinamatters/"><img src="img/fb.png" class="fl" alt=""></a>
 		</div>
 	</footer>
 </body>
 
 <script>
-$(function(){
-	$(".red-btn").click(function(){
-		$(".details").slideToggle("slow");
-		// $(".open").toggle();
-		// $(".close").toggle();
-	});
-});
+var hide=true;
+function displayOrHide(){
+var cityList=document.getElementById("menuBtn");
+if(hide){
+  menuList.style.display="block";
+  hide=false;
+  menuBtn.src="img/close.png";
+}else{
+   menuList.style.display="none";
+  hide=true;
+  menuBtn.src="img/menu.png";
+}
+}
 </script>
-<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+
 
 </html>
