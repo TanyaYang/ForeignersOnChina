@@ -43,7 +43,7 @@ img.bannerimg{margin-bottom: -1%;}
 .banner-info p.dollar-text{font-size: 14px;line-height: 1.5;padding-left: 45px;}
 .banner-info .info-1 img{width: 130px;height: 45px;/*position: absolute;top:0px;left: 0px;*/}
 /*.banner-info .info-1{position: relative;}*/
-.banner-info .info-3{width: 177px;height: 74px; text-align: center; line-height: 74px; color:#000; border:1px solid 
+.banner-info .info-3{width: 253px;height: 74px; text-align: center; line-height: 74px; color:#000; border:1px solid 
 	#fff100;border-radius:10px; -moz-border-radius:10px;background-color: #fff100;margin: 30px 0;}
 .banner-info .info-3 p{font-size: 18px;}
 
@@ -88,7 +88,7 @@ ul.pc-menu li a{color:#ff261c;}
 ul.pc-menu li a:hover{font-weight: bold; text-decoration:underline; outline: none;}
 .banner-info .info-1,.info-2{padding-top: 8px;}
 /*.banner-info .info-1 img{top:10px;left: 30%;}*/
-.banner-info .info-3{width: 120px;height: 45px;line-height: 45px;border-radius:6px; -moz-border-radius:6px; margin-left: 35%; margin: 10px auto; }
+.banner-info .info-3{width: 190px;height: 45px;line-height: 45px;border-radius:6px; -moz-border-radius:6px; margin-left: 35%; margin: 10px auto; }
 .banner-info .info-3 p{font-size: 14px;}
 .banner-info .w{height: 235px; width: 100%; text-align: center;}
 .red-btn{margin-top: 40px;}

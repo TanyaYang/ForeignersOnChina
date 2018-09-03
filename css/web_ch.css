@@ -43,8 +43,8 @@ img.bannerimg{margin-bottom: -1%;}
 .banner-info p.dollar-text{font-size: 14px;line-height: 1.5;padding-left: 45px;}
 .banner-info .info-1 img{width: 163px;height:62px;/*position: absolute;top:0px;left: 0px;*/}
 /*.banner-info .info-1{position: relative;}*/
-.banner-info .info-3{width: 177px;height: 74px; text-align: center; line-height: 74px; color:#000; border:1px solid 
-	#fff100;border-radius:10px; -moz-border-radius:10px;background-color: #fff100;margin: 40px 0;}
+.banner-info .info-3{width: 150px;height: 65px; text-align: center; line-height: 65px; color:#000; border:1px solid 
+	#fff100;border-radius:10px; -moz-border-radius:10px;background-color: #fff100;margin: 40px 13px;}
 .banner-info .info-3 p{font-size: 18px;}
 
 .red-btn{width: 95px;height: 42px; line-height: 40px; color:#fff; padding-left: 10px; 
