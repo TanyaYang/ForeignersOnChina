@@ -62,22 +62,28 @@ footer{height: 105px;background-color: #514f4e; margin-top: 70px;}
 footer img{height: 35px;width: 35px;margin:35px 0 35px 10px;}
 img.top{width: 65px; height: 65px; position: fixed;right: 30px;bottom: 30px;}
 
-
+#logo1,#logo2,#logo3,#logo4{position: relative;}
+img.org-logo1{height: 25px;width: auto;position:absolute;top:-2px;left: 60px}
+img.org-logo2{height: 40px;width: auto;position:absolute;top:-7px;left: 220px}
+img.org-logo3{height: 40px;width: auto;position:absolute;top:-7px;left: 60px}
+img.org-logo4{height: 40px;width: auto;position:absolute;top:-7px;left: 60px}
+img.org-logo5{height: 38px;width: auto;position:absolute;top:-7px;left: 320px}
 @media screen and (min-width: 1000px){
 .info-1,.info-2,.info-3{float: left;}
 .banner-info .info-2 p{padding-left: 15px; background: url(../img/o.png) 0px 7px no-repeat;}
 .banner-info .info-1,.info-2{margin: 45px 45px 45px 0;}
 
-nav ul{height: 84px;line-height: 84px;margin-left: 25%;}
+nav ul{height: 84px;line-height: 84px;margin-left: 20%;}
 nav ul li{float: left; margin-left: 45px;/*font: Franklin Gothic Book;*/ font-size: 14px; }
 img#menuBtn{display: none;}
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
-nav ul {margin-left: 15%;}
+nav ul {margin-left: 10%;}
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
 nav ul {margin-left: 0}
+nav ul li{margin-left: 30px;}
 }
 @media screen and (max-width: 1000px) {
 .w {width: 95%;}
