@@ -63,13 +63,14 @@ footer{height: 105px;background-color: #514f4e; margin-top: 70px;}
 footer img{height: 35px;width: 35px;margin:35px 0 35px 10px;}
 img.top{width: 65px; height: 65px; position: fixed;right: 30px;bottom: 30px;}
 
-#logo1,#logo2,#logo3,#logo4,#logo6{position: relative;}
+#logo1,#logo2,#logo3,#logo4,#logo6,#logo7{position: relative;}
 img.org-logo1{height: 25px;width: auto;position:absolute;top:-2px;left: 60px}
 img.org-logo2{height: 40px;width: auto;position:absolute;top:-10px;left: 220px}
 img.org-logo3{height: 40px;width: auto;position:absolute;top:-10px;left: 60px}
 img.org-logo4{height: 40px;width: auto;position:absolute;top:-10px;left: 70px}
 img.org-logo5{height: 38px;width: auto;position:absolute;top:-10px;left: 320px}
 img.org-logo6{height: 40px;width: auto;position:absolute;top:-10px;left: 116px}
+img.org-logo7{height: 40px;width: auto;position:absolute;top:-10px;left: 320px}
 
 @media screen and (min-width: 1000px){
 .info-1,.info-2,.info-3{float: left;}
@@ -109,8 +110,8 @@ img#menuBtn{width:35px;height: 35px;margin-top: 23px;margin-right: 9px;}
 .ch_en{margin-right: 0; }
 nav img{width: 40px;height: 40px; margin-left: 15px;margin-top: 20px;}
 img.org-logo1{height: 25px;width: auto;position:absolute;top:0px;left: 0px}
-img.org-logo2,img.org-logo3,img.org-logo4,img.org-logo6{height: 40px;width: auto;position:absolute;top:10px;left: 0px}
+img.org-logo2,img.org-logo3,img.org-logo4,img.org-logo6,img.org-logo7{height: 40px;width: auto;position:absolute;top:10px;left: 0px}
 img.org-logo5{height: 38px;width: auto;position:absolute;top:10px;left: 90px}
 #logo1 p.red{padding-top: 35px;}
-#logo2 p.red,#logo3 p.red,#logo4 p.red,#logo6 p.red{padding-top: 60px;}
+#logo2 p.red,#logo3 p.red,#logo4 p.red,#logo6 p.red,#logo7 p.red{padding-top: 60px;}
 }
