@@ -96,7 +96,8 @@ img.org-logo6{height: 30px;width: auto;position:absolute;top:-5px;left: 110px}
 .panel-con{width: 75%;margin-left: 15px;margin-bottom: 15px;}
 .panel-con p{font-size: 12px;line-height: 1.75;}
 p.name{margin-bottom: 3px;font-weight:bold;}
-
+.gray-con{position: relative;}
+.play{position: absolute;width: 115px;bottom:25px;left: 65px;}
 
 
 
@@ -156,4 +157,8 @@ img.org-logo5{height: 30px;width: auto;position:absolute;top:15px;left: 83px}
 .panel-details {width: 100%;}
 .panel-line1{padding-top: 0px;}
 .panel-line2{border: 0}
+}
+
+@media screen and (max-width: 860px) {
+.play{width: 15%;bottom:3%;left:8%;}
 }
