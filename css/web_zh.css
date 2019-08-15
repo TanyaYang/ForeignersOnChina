@@ -63,14 +63,16 @@ footer img{height: 35px;width: 35px;margin:35px 0 35px 10px;}
 img.top{width: 65px; height: 65px; position: fixed;right: 30px;bottom: 30px;}
 .details a{color:#ff261c; }
 
-#logo1,#logo2,#logo3,#logo4,#logo6,#logo7{position: relative;}
+#logo1,#logo2,#logo3,#logo4,#logo6,#logo7,#logo8{position: relative;}
 img.org-logo1{height: 22px;width: auto;position:absolute;top:4px;left: 190px}
 img.org-logo2{height: 35px;width: auto;position:absolute;top:-5px;left: 175px}
+img.org-logo8{height: 34px;width: auto;position:absolute;top:-5px;left: 85px}
 img.org-logo5{height: 30px;width: auto;position:absolute;top:-5px;left: 258px}
 img.org-logo3{height: 35px;width: auto;position:absolute;top:-5px;left: 150px}
 img.org-logo7{height: 25px;width: auto;position:absolute;top:2px;left: 165px}
 img.org-logo4{height: 30px;width: auto;position:absolute;top:2px;left: 210px}
 img.org-logo6{height: 30px;width: auto;position:absolute;top:-5px;left: 85px}
+
 
 
 
@@ -144,11 +146,12 @@ nav img{width: 40px;height: 40px; margin-left: 15px;margin-top: 20px;}
 .banner-info .info-3 p,.banner-info p{font-size: 16px;}
 img.org-logo1{height: 22px;width: auto;position:absolute;top:5px;left: 0px}
 img.org-logo4,img.org-logo6{height: 30px;width: auto;position:absolute;top:20px;left: 0px}
+img.org-logo8{height: 34px;width: auto;position:absolute;top:16px;left: 0px}
 img.org-logo7{height: 25px;width: auto;position:absolute;top:28px;left: 0px}
 img.org-logo2,img.org-logo3{height: 35px;width: auto;position:absolute;top:15px;left: 0px}
 img.org-logo5{height: 30px;width: auto;position:absolute;top:15px;left: 83px}
 #logo1 p.red{padding-top: 35px;}
-#logo2 p.red,#logo3 p.red,#logo4 p.red,#logo6 p.red,#logo7 p.red{padding-top: 60px;}
+#logo2 p.red,#logo3 p.red,#logo4 p.red,#logo6 p.red,#logo7 p.red,#logo8 p.red{padding-top: 60px;}
 
 .AwardsWork{width: 60%;left: 20%}
 .panel-details {width: 100%;}
