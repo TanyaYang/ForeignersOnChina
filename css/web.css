@@ -53,8 +53,13 @@ img.bannerimg{margin-bottom: -1%;}
 #CATEGORIES .red-btn{width: 131px;}
 #Competition-Rules .red-btn{width: 170px;}
 #Awards .red-btn{width: 85px;}
+#Co-sponsor .red-btn{width: 120px;}
+#Co-organizer .red-btn{width: 130px;}
+#Academic .red-btn{width: 170px;}
+#Platform .red-btn{width: 156px;}
+#Mediasupport .red-btn{width: 140px;}
 #Organizer .red-btn{width: 102px;}
-#Co-organizers .red-btn{width: 137px;}
+
 .red-btn img{width: 10px;height: 13px;margin-left: 10px;margin-top: 13px;}
 .details p,em,i{margin-top: 15px; font: Arial; font-size: 14px;line-height: 1.5;}
 .details a{color:#ff261c; }
@@ -65,7 +70,7 @@ footer img{height: 35px;width: 35px;margin:35px 0 35px 10px;}
 img.top{width: 65px; height: 65px; position: fixed;right: 30px;bottom: 30px;}
 img.notice{width:260px;height: 140px; position: fixed;left: 30px;bottom: 30px;z-index:9999}
 button{ position: fixed;left: 267px;bottom: 149px;z-index:9999}
-#logo1,#logo2,#logo3,#logo4,#logo6,#logo7,#logo8{position: relative;}
+#logo1,#logo2,#logo3,#logo4,#logo6,#logo7,#logo8,#logo9{position: relative;}
 img.org-logo1{height: 22px;width: auto;position:absolute;top:-2px;left: 55px}
 img.org-logo2{height: 35px;width: auto;position:absolute;top:-5px;left: 220px}
 img.org-logo8{height: 34px;width: auto;position:absolute;top:-8px;left: 250px}
@@ -74,7 +79,7 @@ img.org-logo3{height: 35px;width: auto;position:absolute;top:-5px;left: 52px}
 img.org-logo7{height: 25px;width: auto;position:absolute;top:-5px;left: 300px}
 img.org-logo4{height: 30px;width: auto;position:absolute;top:-5px;left: 60px}
 img.org-logo6{height: 30px;width: auto;position:absolute;top:-5px;left: 110px}
-
+img.org-logo9{height: 30px;width: auto;position:absolute;top:-5px;left: 375px}
 
 
 /*首届回顾*/
@@ -152,10 +157,10 @@ img.org-logo1{height: 22px;width: auto;position:absolute;top:5px;left: 0px}
 img.org-logo4,img.org-logo6{height: 30px;width: auto;position:absolute;top:20px;left: 0px}
 img.org-logo7{height: 25px;width: auto;position:absolute;top:28px;left: 0px}
 img.org-logo8{height: 34px;width: auto;position:absolute;top:16px;left: 0px}
-img.org-logo2,img.org-logo3{height: 35px;width: auto;position:absolute;top:15px;left: 0px}
-img.org-logo5{height: 30px;width: auto;position:absolute;top:15px;left: 83px}
+img.org-logo2,img.org-logo3,img.org-logo9{height: 35px;width: auto;position:absolute;top:15px;left: 0px}
+img.org-logo5{height: 30px;width: auto;position:absolute;top:15px;left: 0px}
 #logo1 p.red{padding-top: 35px;}
-#logo2 p.red,#logo3 p.red,#logo4 p.red,#logo6 p.red,#logo7 p.red,#logo8 p.red{padding-top: 60px;}
+#logo2 p.red,#logo3 p.red,#logo4 p.red,#logo6 p.red,#logo7 p.red,#logo8 p.red,#logo9 p.red{padding-top: 60px;}
 
 .AwardsWork{width: 60%;left: 20%}
 .panel-details {width: 100%;}
