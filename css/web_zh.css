@@ -123,7 +123,10 @@ img#menuBtn{display: none;}
 /*.liusiyuan,.Patrick{height: 131px;}*/
 .panel-line2{width: 100%;}
 
-
+.videoentries .alphabtn{filter:Alpha(opacity=0); background:#010000;-moz-opacity:0;opacity:0;position:relative;height: 35px;top:165px;}
+.videoentries #ve-xgbtn{width: 162px;left:160px;}
+.videoentries #ve-blibtn{width: 176px;left:189px;}
+.videoentries #ve-txbtn{width: 210px;left:220px;}
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -136,9 +139,18 @@ nav ul li{float: left; margin-left: 40px;}
 
 }
 
+@media screen and (max-width: 860px) {
+.play{width: 15%;bottom:3%;left:8%;}
+
+}
+
 @media screen and (max-width: 1023px) {
 .w {width: 95%;}
 .ch_en{width: 110px;padding-left: 9px;}
+.videoentries{background-color:#2929d3;padding: 15px;margin-top: 30px;}
+.videoentries .vebtn-1,.vebtn-2{padding: 6px;text-align: center;}
+.vebtn-1 img{position:relative;height: 70px;width: auto;}
+.vebtn-2 img {position:relative;height: 30px;width: auto;}
 nav {height: 75px;border-bottom: 8px solid #efefef; border-top: 0px;/*line-height: 90px;*//*background: url(../img/logo.png) 10px 10px no-repeat;*/position: relative;}
 ul.pc-menu{width: 150px;margin: 0;float: right; position: absolute;top: 75px;right: 0px; z-index:9999;display: none;}
 ul.pc-menu li{background-color:rgba(255, 255, 255, 0.85);padding:0px 15px 20px 45px;}
@@ -169,22 +181,7 @@ img.org-logo5{height: 30px;width: auto;position:absolute;top:15px;left: 0px}
 .panel-details {width: 100%;}
 .panel-line1{padding-top: 0px;}
 .panel-line2{border: 0}
-
-
-
-@media screen and (max-width: 860px) {
-.play{width: 15%;bottom:3%;left:8%;}
-/*.videoentries{position: absolute;}
-.videoentries a{position:relative;}
-
-.videoentries #ve-xgbtn{left:100px;top:147px;}
-.videoentries #ve-blibtn{left:100px;top:167px;}
-.videoentries #ve-txbtn{left:100px;top:178px;}*/
 }
 
-/*@media screen and (min-width: 860px) {*/
-.videoentries .alphabtn{filter:Alpha(opacity=0); background:#010000;-moz-opacity:0;opacity:1;position:relative;height: 35px;width: 100px; top:165px;}
-.videoentries #ve-xgbtn{width: 162px;left:160px;}
-.videoentries #ve-blibtn{width: 176px;left:189px;}
-.videoentries #ve-txbtn{width: 210px;left:220px;}
-/*}*/
+
+

@@ -59,18 +59,11 @@
 
 		</nav>
 		<img class="bannerimg" src="img/2-banner2.jpg" alt="">
-		<!-- <div class="banner-text">
-			<img src="img/banner.jpg" alt="">
-			<div class="competition-name">
-				<h1>“ FOREIGNERS ON CHINA ”</h1>
-				<h1>INTERNATIONAL MICRO-VIDEO COMPETITION</h1>
-			</div>
-		</div> -->
+
 		<div class="banner-info  ">
 			<div class="w clearnfix">
 			<div class="info-1 ">
-				<!-- <p class="dollar">5000.00</p>
-				<p class="dollar-text">PROJECT PRIZING</p> -->
+
 				<img src="img/dollar-zh.png" alt="">
 			</div>
 			<div class="info-2 ">
@@ -100,34 +93,29 @@
 					<p>优秀产品将依托中国外文局旗下融媒体中心、中国网、北京周报社、今日中国社、人民画报社、人民中国社、中国报道社等覆盖10个语种的七大国际传播品牌，通过网站、社交媒体等平台面向全球移动互联网受众广泛传播，并同步落地本届大赛国内外优质合作伙伴的传播平台。</p>
 				</div>
 			</div>
-<!-- 
-			<div class="videoentries w ">
-				<a href="https://www.ixigua.com/6829209172068794891" target="_blank">
-					<input type="button" class="alphabtn" id="ve-xgbtn" value="" />
-				</a>
-				<a href="https:///www.bilibili.com/blackboard/activity-fQLyVZBhU.html" target="_blank">
-					<input type="button" class="alphabtn" id="ve-blibtn" value="" />
-				</a>
-				<a href="https://v.qq.com/x/cover/mzc0020063sh7sw/v3109alauuf.html" target="_blank">
-					<input type="button" class="alphabtn" id="ve-txbtn" value="" />
-				</a>
-				<img src="img/videoentries-pc.jpg" id="videoentriesbg">
-			</div>
-<script>
-if (window.innerWidth)
-winWidth = window.innerWidth;
-else if ((document.body) && (document.body.clientWidth))
-winWidth = document.body.clientWidth;	
-document.write("Screen resolution: ")
-document.write(winWidth)
 
-if (winWidth>=1023)
-{document.getElementById("videoentriesbg").src="img/videoentries-pc.jpg"};
-else (winWidth<1023)
-{document.getElementById("videoentriesbg").src="img/videoentries-m.jpg"};
-
-</script> -->
-			<!-- <div class="clearnfix"></div> -->
+  <div class="videoentries w " id="pcdiv"> 
+   <a href="https://www.ixigua.com/6829209172068794891" target="_blank"> <input type="button" class="alphabtn" id="ve-xgbtn" value="" /> </a> 
+   <a href="https:///www.bilibili.com/blackboard/activity-fQLyVZBhU.html" target="_blank"> <input type="button" class="alphabtn" id="ve-blibtn" value="" /> </a> 
+   <a href="https://v.qq.com/x/cover/mzc0020063sh7sw/v3109alauuf.html" target="_blank"> <input type="button" class="alphabtn" id="ve-txbtn" value="" /> </a> 
+   <img src="img/videoentries-pc.jpg" id="videoentriesbg" /> 
+  </div> 
+  <div class="videoentries w " id="mdiv"> 
+   <div class="clearnfix "> 
+    <div class="vebtn-1 "> 
+     <img src="img/videoentries.png" id="videoentriesT" /> 
+    </div> 
+    <div class="vebtn-2 "> 
+     <a href="https://www.ixigua.com/6829209172068794891" target="_blank"> <img src="img/videoentries-xg.png" /> </a> 
+    </div> 
+    <div class="vebtn-2 "> 
+     <a href="https:///www.bilibili.com/blackboard/activity-fQLyVZBhU.html" target="_blank"> <img src="img/videoentries-b.png" /> </a> 
+    </div> 
+    <div class="vebtn-2 "> 
+     <a href="https://v.qq.com/x/cover/mzc0020063sh7sw/v3109alauuf.html" target="_blank"> <img src="img/videoentries-tx.png" /> </a> 
+    </div> 
+   </div> 
+  </div>
 
 			<div id="CATEGORIES">
 				<div class="red-btn">主题单元<img src="img/arrow.png" alt=""></div>
@@ -299,6 +287,20 @@ else (winWidth<1023)
 		</div>
 	</footer>
 </body>
+<script>
 
+window.onload = veset();
+window.onresize = veset();
+
+function veset() {
+if (document.documentElement.clientWidth < 1024) {
+  document.getElementById('pcdiv').style.display="none";
+  document.getElementById('videoentriesbg').style.display="none";
+}else{ document.documentElement.clientWidth >= 1024
+  document.getElementById('mdiv').style.display="none";
+  // document.getElementById('videoentriesbgm').style.display="none";
+  document.getElementById('videoentriesT').style.display="none";}
+}
+</script>
 <script src="js/web.js"></script>
 </html>
