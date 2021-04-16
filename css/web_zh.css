@@ -123,7 +123,7 @@ p.name{margin-bottom: 3px;font-weight:bold;}
 .banner-info .info-2 p{padding-left: 15px; background: url(../img/o.png) 0px 7px no-repeat;}
 .banner-info .info-1{margin: 45px 0;}
 .banner-info .info-2{margin: 60px 34px;}
-nav ul{height: 84px;line-height: 84px;margin-left: 17%;}
+nav ul{height: 84px;line-height: 84px;margin-left: 11%;}
 nav ul li{float: left; margin-left:50px;/*font: Franklin Gothic Book;*/ /*font-size: 18px;*/ }
 /*img#menuBtn{display: none;}*/
 .chenchangfeng,.wantian{height: 129px;}
@@ -138,7 +138,7 @@ nav ul li{float: left; margin-left:50px;/*font: Franklin Gothic Book;*/ /*font-s
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
-nav ul {margin-left: 5%;}
+nav ul {margin-left: -2%;}
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1199px) {

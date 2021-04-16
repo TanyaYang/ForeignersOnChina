@@ -47,18 +47,18 @@ img.bannerimg{margin-bottom: -1%;}
 	#fff100;border-radius:10px; -moz-border-radius:10px;background-color: #fff100;margin: 30px 0;}
 .banner-info .info-3 p{font-size: 18px;}
 
-.red-btn{width: 150px;height: 42px; line-height: 40px; color:#fff; padding-left: 10px; 
+.red-btn{width: 200px;height: 42px; line-height: 40px; color:#fff; padding-left: 10px; 
 	margin-top: 70px; margin-bottom: 15px; font-weight: bold;border:1px solid 
 	#ff261c;border-radius:6px; -moz-border-radius:6px;background-color: #ff261c;}
-#CATEGORIES .red-btn{width: 131px;}
-#Competition-Rules .red-btn{width: 170px;}
-#Awards .red-btn{width: 85px;}
+#CATEGORIES .red-btn{width: 171px;}
+#Competition-Rules .red-btn{width: 138px;}
+#Awards .red-btn{width: 181px;}
 #Co-sponsor .red-btn{width: 120px;}
 #Co-organizer .red-btn{width: 130px;}
 #Academic .red-btn{width: 170px;}
 #Platform .red-btn{width: 156px;}
 #Mediasupport .red-btn{width: 140px;}
-#Organizer .red-btn{width: 102px;}
+#Organizer .red-btn{width: 114px;}
 
 .red-btn img{width: 10px;height: 13px;margin-left: 10px;margin-top: 13px;}
 .details p,em,i{margin-top: 15px; font: Arial; font-size: 14px;line-height: 1.5;}
@@ -124,7 +124,7 @@ p.name{margin-bottom: 3px;font-weight:bold;}
 .info-1,.info-2,.info-3{float: left;}
 .banner-info .info-2 p{padding-left: 15px; background: url(../img/o.png) 0px 7px no-repeat;}
 .banner-info .info-1,.info-2{margin: 45px 45px 45px 0;}
-nav ul{height: 84px;line-height: 84px;margin-left: 14%;}
+nav ul{height: 84px;line-height: 84px;margin-left: 8%;}
 nav ul li{float: left; margin-left: 32px;/*font: Franklin Gothic Book;*/ font-size: 14px; }
 /*img#menuBtn{display: none;}*/
 
